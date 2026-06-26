@@ -9,5 +9,7 @@ export default function RotaProtegida({ children }: { children: ReactNode }) {
     return <Navigate to="/login" replace />;
   }
 
-  return <>{children}</>;
+  return <>
+  {children}
+  </>;
 }
