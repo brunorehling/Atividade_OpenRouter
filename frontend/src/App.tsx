@@ -68,8 +68,7 @@ function App() {
           <button
             type="submit"
             disabled={isSubmitting}
-            className='self-start mt-1 py-2.5 px-6 bg-[#5b9bd5] text-[#0a2647] font-mono text-sm font-bold uppercase tracking-wide
-                       hover:bg-[#eef3f8] transition-colors cursor-pointer disabled:opacity-40 disabled:cursor-default'
+            className='self-start mt-1 py-2.5 px-6 bg-[#5b9bd5] text-[#0a2647] font-mono text-sm font-bold uppercase tracking-wide hover:bg-[#eef3f8] transition-colors cursor-pointer disabled:opacity-40 disabled:cursor-default'
           >
             {isSubmitting ? "Gerando..." : "Gerar especificação"}
           </button>
@@ -85,8 +84,7 @@ function App() {
           saída — especificação
         </span>
  
-        <div className='mt-3 bg-[#f4f1ea] border-2 border-[#5b9bd5] shadow-[6px_6px_0_#1c3a5a]
-                         p-6 max-h-[45vh] overflow-y-auto'>
+        <div className='mt-3 bg-[#f4f1ea] border-2 border-[#5b9bd5] shadow-[6px_6px_0_#1c3a5a] p-6 max-h-[45vh] overflow-y-auto'>
           {resultado ? (
             <pre className='text-[#14233a] whitespace-pre-wrap font-mono text-sm leading-relaxed'>
               {resultado.resposta}

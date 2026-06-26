@@ -11,6 +11,6 @@ export interface LlmResponse {
 }
 
 export async function RequestLlm(data: LlmRequest): Promise<LlmResponse> {
-    const response = await api.post<LlmResponse>('/api/llm', data);
+    const response = await api.post<LlmResponse>('/api/requisitos', data);
     return response.data;
 }
